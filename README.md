@@ -43,6 +43,8 @@ mobsf-project/
 ## 🧩 Prerequisites
 Before you start:
 - **Node.js 18+** and npm
+- **install docker desktop**
+
 - **MobSF** running locally or accessible (default: `http://localhost:8000`)
 - (Optional) Git & GitHub for version control
 
@@ -58,6 +60,16 @@ cd mobsf-ui-backend
 npm install
 
 # 3. paste mobsf-api-key
+install docker desktop
+open  terminal and run below commands
+
+docker pull opensecurity/mobile-security-framework-mobsf:latest
+docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest
+
+# open localhost:8000 
+Default username and password: mobsf/mobsf
+
+got to api docs copy apikey and paste in .env file
 
 # 5. Start backend (development mode)
 npm run dev

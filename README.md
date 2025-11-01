@@ -61,6 +61,7 @@ npm install
 
 # 3. paste mobsf-api-key
 install docker desktop
+signup with email
 open  terminal and run below commands
 
 docker pull opensecurity/mobile-security-framework-mobsf:latest

@@ -48,21 +48,16 @@ Before you start:
 
 ---
 
-## 🖥️ Backend Setup (mobsf-ui-backend)
+## 🖥️  Setup(backend + frontend)
 ```bash
 # 1. Go to backend folder
-cd mobsf-project/mobsf-ui-backend
+cd mobsf-ui-backend
 
-# 2. Copy environment file
-create .env file in root directory
 
-# 3. Open .env and set your MobSF details
- MOBSF_URL=http://localhost:8000
- MOBSF_API_KEY=<your_mobsf_api_key>
- PORT=4000
-
-# 4. Install dependencies
+# 2. Install dependencies
 npm install
+
+# 3. paste mobsf-api-key
 
 # 5. Start backend (development mode)
 npm run dev
